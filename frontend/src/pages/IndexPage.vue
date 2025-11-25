@@ -1,26 +1,12 @@
 <template>
-  <div class="q-pa-md example-column-equal-width">
-
-    <div class="column" style="height: 150px">
-      <div class="col">
-        1 of 2
-      </div>
-      <div class="col">
-        1 of 2
-      </div>
-    </div>
-
-    <div class="column" style="height: 150px">
-      <div class="col">
-        1 of 3
-      </div>
-      <div class="col">
-        1 of 3
-      </div>
-      <div class="col">
-        1 of 3
-      </div>
-    </div>
-
+  <div class="q-pa-md q-gutter-sm">
+    <q-btn color="white" text-color="black" label="Standard" />
+    <q-btn color="primary" label="Primary" />
+    <q-btn color="secondary" label="Secondary" />
+    <q-btn color="amber" glossy label="Amber" />
+    <q-btn color="brown-5" label="Brown 5" />
+    <q-btn color="deep-orange" glossy label="Deep Orange" />
+    <q-btn color="purple" label="Purple" />
+    <q-btn color="black" label="Black" />
   </div>
 </template>
